@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import TextTruncate from 'react-text-truncate';
 
 const CalendarTitle = ({title}) => {
@@ -12,7 +13,7 @@ const CalendarTitle = ({title}) => {
 };
 
 CalendarTitle.propTypes = {
-  title: React.PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default CalendarTitle;
